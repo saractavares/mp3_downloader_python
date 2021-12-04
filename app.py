@@ -1,4 +1,3 @@
-#import os
 from pytube import YouTube
 
 url = input("Digite o link: ")
