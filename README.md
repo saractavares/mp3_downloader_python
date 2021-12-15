@@ -49,9 +49,21 @@ highest() da lib Pytube.
 
 <h4> Preguiça de clonar o código? Apenas copie-o então: </h4>
     <p> Lembre-se de baixar a lib pytube antes de executar </p>
-<img width="80%" src="https://github.com/saractavares/mp3_downloader_python/blob/master/assets/code.png?raw=true"/>
-        <br/>
-        <br/>
+    
+```python
+from pytube import YouTube
+
+url = input("Digite o link: ")
+_filename = input("Nome do arquivo: ")
+formato = "'%s'.mp3" % _filename  # Para baixar em mp4 é só trocar ".mp3" por ".mp4"
+
+print("baixando...")
+YouTube(url).streams.first().download(filename=formato)
+print("Download concluído!")
+```
+    
+<br/>
+<br/>
 <h2> Dúvidas e sugestões? Me encontre pelos links no meu: </h2>
 <div align="center">
     <a href="https://saractavares.github.io/" target="_blank"><img src="https://img.shields.io/badge/-Portifolio-%d31717?style=for-the-badge&logo=portifolio&logoColor=<cf2f7a>" target="_blank"></a>
