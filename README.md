@@ -42,7 +42,7 @@ highest() da lib Pytube.
         <br/>
         <br/>
         <p> Aproveite no seu Player favorito: </p>
-        <img width="80%" height="500px" src="https://github.com/saractavares/mp3_downloader_python/blob/master/assets/player.png?raw=true"/>
+        <img width="80%" height="auto" src="https://github.com/saractavares/mp3_downloader_python/blob/master/assets/player.png?raw=true"/>
         <br/>
         <br/>
     </div>
